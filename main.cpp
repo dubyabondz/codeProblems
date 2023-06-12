@@ -64,7 +64,7 @@ void func1()
     //  100+1=101 then 99+2=101, 98+3=101, 97+4=101, and so on...
     //  Using the 100 & 1 boundaries we'll have 101*50, the first 50 will coincide with the last 50
     unsigned int uiFull = 101 * 50;
-    std::cout << "The number that the value shold have is a total of: " << uiFull << "." << std::endl;
+    std::cout << "The number that the value should have is a total of: " << uiFull << "." << std::endl;
     //  Now we simply take the amount that's missing from this from the user and give them the answer
     std::cout << "This is the absolute number to do.  Simply creating an array with a randomly missing number and then see if it matches"  << std::endl;
     
